@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_jeu">
+
+    <fragment
+        android:id="@+id/nav_jeu"
+        android:name="com.example.tictactoecours03.ui.jeu.JeuFragment"
+        android:label="@string/menu_jeu"
+        tools:layout="@layout/fragment_jeu" />
+
+    <fragment
+        android:id="@+id/nav_aide"
+        android:name="com.example.tictactoecours03.ui.aide.AideFragment"
+        android:label="@string/menu_aide"
+        tools:layout="@layout/fragment_aide" />
+
+</navigation>
